@@ -1,0 +1,5 @@
+dn: o=buque,cn=subschema,dc=fluidsignal,dc=com
+objectClass: top
+objectClass: organization
+o: Buque
+description: Buque organization

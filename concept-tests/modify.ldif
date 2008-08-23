@@ -1,0 +1,3 @@
+dn: uid=rstallman,ou=people,dc=fluidsignal,dc=com
+changetype: modify
+delete: cn

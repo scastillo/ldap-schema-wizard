@@ -1,0 +1,9 @@
+dn: uid=gcantor,ou=people,dc=alephzero,dc=com
+uid: gcantor
+cn: George Cantor
+sn: George
+givenName: Cantor
+userPassword: gcantor
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson

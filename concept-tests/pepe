@@ -1,0 +1,45 @@
+In [77]: l=file('preba.xml','r+')
+
+In [78]: dsml.list_dict(l)
+Out[78]:
+{'\n': None,
+'      <attribute ref="#cn" required="true"/>\n': None,
+'      <attribute ref="#objectClass" required="true"/>\n': None,
+'      <attribute ref="#subtreeSpecification" required="true"/>\n': None,
+'      <description>RFC3672: subentry</description>\n': None,
+'      <description>RFC4512: attribute types</description>\n': None,
+'      <description>RFC4512: extensible object</description>\n': None,
+'      <description>top of the superclass chain</description>\n': None,
+'      <equality>objectIdentifierFirstComponentMatch</equality>\n': None,
+'      <name>attributeTypes</name>\n': None,
+'      <name>extensibleObject</name>\n': None,
+'      <name>subentry</name>\n': None,
+'      <name>top</name>\n': None,
+'      <object-identifier>1.3.6.1.4.1.1466.101.120.111</object-identifier>\n': None,
+'      <object-identifier>2.5.17.0</object-identifier>\n': None,
+'      <object-identifier>2.5.21.5</object-identifier>\n': None,
+'      <object-identifier>2.5.21.7</object-identifier>\n': None,
+'      <object-identifier>2.5.6.0</object-identifier>\n': None,
+'      <syntax>1.3.6.1.4.1.1466.115.121.1.35</syntax>\n': None,
+'      <syntax>1.3.6.1.4.1.1466.115.121.1.3</syntax>\n': None,
+'    </attribute-type>\n': None,
+'    </class>\n': None,
+'    <attribute-type id="attributeTypes">\n': None,
+'    <attribute-type id="nameForms">\n': None,
+'    <class id="extensibleObject" superior="#top" type="auxiliary">\n': None,
+'    <class id="subentry" superior="#top" type="structural">\n': None,
+'   <class id="top" type="abstract">\n': None,
+'  <directory-entries/>\n': None,
+'  <directory-schema>\n': None,
+' </attribute-type>\n': None,
+'</directory-schema>\n': None,
+'</dsml>\n': None,
+'<?xml version="1.0" encoding="UTF-8"?>\n': None,
+'<description>RFC4512: name forms </description>\n': None,
+'<dsml xmlns="http://www.dsml.org/DSML";>\n': None}
+utilizando el list_dict
+ 
+
+
+
+

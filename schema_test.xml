@@ -1,0 +1,30 @@
+<Schema ldap_schema_wizzard_xml_syntax_version="1.0">
+	<ObjectClass kind="abstract" obsolete="False" oid="1.2.3">
+		<Name>
+			test
+		</Name>
+		<Description>
+			Test Object Class 1
+		</Description>
+		<May>
+			may1
+		</May>
+		<May>
+			may2
+		</May>
+		<May>
+			may3
+		</May>
+	</ObjectClass>
+	<ObjectClass kind="structural" obsolete="True" oid="1.2.3.1">
+		<Name>
+			inetOrgPublicDog
+		</Name>
+		<Name>
+			dog
+		</Name>
+		<Description>
+			RFC 0000: Specification for NASA dogs
+		</Description>
+	</ObjectClass>
+</Schema>

@@ -1,0 +1,25 @@
+# Base
+dn: dc=alephzero,dc=com
+o: Alephzero Inc.
+dc: alephzero
+objectClass: top
+objectClass: organization
+objectClass: dcObject
+
+# People subtree
+dn: ou=people,dc=alephzero,dc=com
+ou: people
+description: User accounts
+objectclass: organizationalUnit
+
+# System subtree
+dn: ou=system,dc=alephzero,dc=com
+ou: system
+description: Special accounts used by software applications
+objectclass: organizationalUnit
+
+# Groups subtree
+dn: ou=groups,dc=alephzero,dc=com
+ou: groups
+description: Alephzero groups
+objectclass: organizationalUnit
