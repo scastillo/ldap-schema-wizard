@@ -208,7 +208,7 @@ def main():
 
     try:
         schema = Schema()
-        schema.objectclasses.append(ObjectClass('1.2.', ('test',) ,'Test Object Class 1', kind='abstrac'))
+        schema.objectclasses.append(ObjectClass('1.2.', ('test',) ,'Test Object Class 1', kind='abstract'))
         schema.objectclasses.append(ObjectClass(oid='1.2.3.1', desc='RFC 0000: Specification for NASA dogs', names=('inetOrgPublicDog', 'dog')))
 
         schema.objectclasses[0].may=('may1', 'may2', 'may3')

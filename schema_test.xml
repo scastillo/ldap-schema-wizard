@@ -1,5 +1,5 @@
-<Schema ldap_schema_wizzard_xml_syntax_version="1.0">
-	<ObjectClass kind="abstract" obsolete="False" oid="1.2.3">
+<Schema ldap_schema_wizzard_version="0.1">
+	<ObjectClass kind="abstract" obsolete="False" oid="1.2.">
 		<Name>
 			test
 		</Name>
